@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="icon" href="img/taza-de-cafe.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="brand-container">
+                <img src="img/taza-de-cafe.png" alt="Logo de taza de café.">
+                <h1>Panadería y Cafetería "La Bendición"</h1>
+            </div>
+
+            <div class="links">
+                <a href="">Inicio</a>
+                <a href="">Productos</a>
+                <a href="">Nosotros</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+
+        <h2>Nuestra Historia</h2>
+
+        <p>
+            Panadería y Cafetería "La Bendición" nació con el propósito
+            de ofrecer a las familias productos frescos, deliciosos y
+            elaborados con mucho cariño. Desde nuestros inicios, nos
+            hemos dedicado a preparar pan artesanal y bebidas de calidad,
+            conservando las tradiciones de la panadería y brindando
+            siempre una atención amable a nuestros clientes.
+            Para nosotros, cada pan representa una oportunidad de
+            compartir momentos especiales y llevar un poquito de
+            felicidad a cada hogar.
+        </p>
+
+
+        <div class="cards-trophies">
+
+            <div class="card">
+                <h2>PAN FRANCÉS</h2>
+                <p>
+                    Nuestro delicioso pan francés se caracteriza por
+                    su corteza ligeramente crujiente y su interior
+                    suave y esponjoso. Es perfecto para acompañar
+                    el desayuno, preparar un sándwich o disfrutarlo
+                    con una taza de café.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>PAN CEMITA</h2>
+                <p>
+                    La cemita es uno de los panes tradicionales
+                    favoritos de nuestros clientes. Su textura suave,
+                    su delicioso sabor y su característica forma
+                    la convierten en una excelente opción para
+                    acompañar cualquier comida.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>CHAMPURRADAS</h2>
+                <p>
+                    Crujientes, doraditas y con un sabor inconfundible,
+                    nuestras champurradas son ideales para acompañar
+                    una taza de café o chocolate caliente. Un clásico
+                    de la panadería guatemalteca que no puede faltar
+                    en nuestra mesa.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- FORMULARIO -->
+        <form class="main-form" id="contactForm">
+
+            <h2>FORMULARIO DE PEDIDO</h2>
+
+            <div class="input-form">
+
+                <label for="name">Nombre</label>
+
+                <input id="name" type="text" required placeholder="Escribe tu nombre..." minlength="3">
+
+            </div>
+
+
+            <div class="input-form">
+
+                <label for="email">Email</label>
+
+                <input id="email" type="email" required placeholder="ejemplo@gmail.com">
+
+            </div>
+
+
+            <div class="input-form">
+
+                <label for="designtype">Pan</label>
+
+                <select id="designtype" required>
+
+                    <option value="">Elige tu pan...</option>
+                    <option value="type1">Cemita</option>
+                    <option value="type2">Frances</option>
+                    <option value="type3">Champurrada</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="input-form">
+
+                <label for="text">Mensaje</label>
+
+                <textarea id="text" required placeholder="Cuéntanos tu experiencia con nuestro pan..."></textarea>
+
+            </div>
+
+
+            <div class="submit-input">
+
+                <input type="submit" value="ENVIAR">
+
+            </div>
+
+        </form>
+    </main>
+
+    <footer class="main-footer">
+
+        <div class="footer-info">
+
+            <h3>CAFETERIA Y PANADERIA "LA BENDICIÓN"</h3>
+
+            <p>
+                Donde encuentras lo que te llena.
+            </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <p>Email: contacto@cafeteria.com</p>
+            <p>Teléfono: +502 0000-0000</p>
+
+        </div>
+
+        <div class="footer-copy">
+
+            <p>© 2026 Cafeteria "La Bendición". Todos los derechos reservados.</p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

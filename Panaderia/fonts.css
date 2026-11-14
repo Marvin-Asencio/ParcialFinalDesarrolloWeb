@@ -1,0 +1,19 @@
+@font-face {
+  font-family: IndieFlower;
+  src: url(Style_Script/StyleScript-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: StoryScript;
+  src: url(Story_Script/StoryScript-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url(Roboto/static/Roboto-Bold.ttf) format(truetype);
+}

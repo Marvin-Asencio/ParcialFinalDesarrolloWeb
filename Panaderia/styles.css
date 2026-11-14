@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Encabezado*/
+header {
+  background: url(img/banner.png) center / cover fixed;
+  border-bottom: 6px solid #473230;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.brand-container img {
+  width: 80px;
+  height: auto;
+}
+
+.brand-container h1 {
+  font-family: IndieFlower;
+  font-size: 42px;
+  color: #473230;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.links a {
+  font-family: StoryScript;
+  font-size: 18px;
+  color: #473230;
+  text-decoration: none;
+}
+
+/*Configuracion de contenido principal*/
+.main-content h2 {
+  font-size: 42px;
+  color: #473230;
+  font-family: IndieFlower;
+  font-weight: bold;
+  padding: 0 20px 0 20px;
+
+  margin-bottom: 0;
+}
+
+.main-content p {
+  font-family: Roboto;
+  font-weight: 32px;
+  text-align: justify;
+  padding: 0 20px 0 20px;
+
+  margin-top: 0;
+}
+
+.main-content img {
+  width: 600px;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.cards-trophies {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+}
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+  background-color: #473230;
+  border: 10px solid #ddb892;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  border-radius: 100%;
+  margin: 0 auto;
+
+  box-shadow: 0 0 30px 0 #473230;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-family: RobotoBold;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0 20px 0 20px;
+
+  margin-bottom: 0;
+}
+
+.card p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: justify;
+  padding: 0 20px 0 20px;
+}
+
+/* FORMULARIO */
+
+.main-form {
+  max-width: 500px;
+
+  margin: 0 auto 50px;
+  padding: 25px 10px;
+
+  background-color: #ddb892;
+
+  border: 10px solid #473230;
+  border-radius: 6px;
+}
+
+.main-form h2 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+  font-family: RobotoBold;
+  font-size: 24px;
+  text-align: center;
+  color: #473230;
+}
+
+/* CAMPOS */
+
+.input-form {
+  padding: 8px 20px;
+}
+
+.input-form label {
+  display: block;
+
+  margin-bottom: 5px;
+
+  font-family: Roboto;
+  color: #473230;
+}
+
+.input-form input,
+.input-form select,
+.input-form textarea {
+  width: 100%;
+
+  padding: 10px 12px;
+
+  background-color: #ffffff;
+
+  border: 2px solid #473230;
+  border-radius: 5px;
+
+  font-family: Roboto;
+  color: #473230;
+}
+
+.input-form textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+/* BOTÓN */
+
+.submit-input {
+  padding: 15px 20px 5px;
+}
+
+.submit-input input {
+  display: block;
+
+  width: 120px;
+
+  margin: auto;
+  padding: 10px;
+
+  background-color: #473230;
+
+  border: none;
+  border-radius: 6px;
+
+  font-family: RobotoBold;
+  font-size: 16px;
+  color: #ddb892;
+}
+
+/* FOOTER */
+
+.main-footer {
+  background-color: #473230;
+
+  border-top: 10px solid #ddb892;
+
+  padding: 30px 40px;
+
+  color: #ddb892;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.footer-info h3 {
+  margin: 0 0 8px;
+
+  font-family: RobotoBold;
+  font-size: 22px;
+}
+
+.footer-info p {
+  margin: 0;
+
+  font-family: PoppinsLight;
+  font-size: 14px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+
+  margin-top: 20px;
+}
+
+.footer-contact p {
+  margin: 0;
+
+  font-family: PoppinsLight;
+  font-size: 13px;
+}
+
+.footer-copy {
+  margin-top: 25px;
+  padding-top: 15px;
+
+  border-top: 1px solid #caf0f8;
+
+  text-align: center;
+}
+
+.footer-copy p {
+  margin: 0;
+
+  font-family: PoppinsLight;
+  font-size: 12px;
+}
